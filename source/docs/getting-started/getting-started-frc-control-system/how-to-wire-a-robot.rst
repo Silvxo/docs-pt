@@ -130,7 +130,7 @@ Requires: 1/16" Allen, Electrical tape
    the tape.
 2. Using the 1/16" Allen wrench, replace the PDP terminal cover
 
-Wago connectors
+ Conector Wago
 ---------------
 
 .. raw:: html
