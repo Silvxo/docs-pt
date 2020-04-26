@@ -3,9 +3,9 @@ How to Wire an FRC Robot
 
 .. note::
 
-   This document details the wiring of a basic electronics board for bench-top testing.
+   Este documento instrui como fazer o cabeamento de uma chapa de eletrônicos para testes de sistemas.
 
-   Some images shown in this section reflect the setup for a Robot Control System using Spark motor controllers. Wiring diagram and layout should be similar for other motor controllers. Where appropriate, a second set of images shows the wiring steps for using PWM controllers with integrated wires.
+   Algumas das imagens dessa sessão demonstram o setup do sistema de controle de um robô que utiliza controladores Spark. O diagrama e layout do cabeamento pode ser parecido com o de outros motores. Um segundo set de imagens mostra o passo a passo de como utilizar controladores PWM com fios integrados.
 
 Gather Materials
 ----------------
@@ -13,8 +13,7 @@ Gather Materials
 .. image:: images/how-to-wire-a-robot/image0.jpg
    :width: 600
 
-Locate the following control system components and tools
-
+Encontre os seguintes componentes e ferramentas do sistema de controle
 
 - Kit Materials:
 
@@ -22,7 +21,7 @@ Locate the following control system components and tools
       - roboRIO
       - Pneumatics Control Module (PCM)
       - Voltage Regulator Module (VRM)
-      - OpenMesh radio (with power cable and Ethernet cable)
+      - OpenMesh radio (Com cabo de energia e cabo Ethernet)
       - Robot Signal Light (RSL)
       - 4x Victor SPX or other speed controllers
       - 2x PWM y-cables
@@ -52,45 +51,40 @@ Locate the following control system components and tools
       - Wire cutters, strippers, and crimpers
       - 7/16” box end wrench or nut driver
 
-Create the Base for the Control System
---------------------------------------
+Crie a base para montar o sistema de controle
+---------------------------------------------
 
 For a benchtop test board, cut piece of 1/4” or 1/2" material (wood or
 plastic) approximately 24" x 16". For a Robot Quick Build control board
 see the supporting documentation for the proper size board for the
 chosen chassis configuration.
+Para a chapa de testes, corte um pedaço (de madeira ou plástico) de 1/4” ou 1/2” de espessura e de dimensões de aproximadamente 24” x 16”. Verifique o tamanho correto da configuração do seu chassi, na documentação de suporte, se estiver utilizando Robot Quick Build.
 
-Layout the Core Control System Components
------------------------------------------
+Organização dos principais componentes do sistema de controle
+-------------------------------------------------------------
 
 .. image:: images/how-to-wire-a-robot/image1.jpg
    :width: 600
 
 
-Layout the components on the board. One layout that should work is shown
-in the images/how-to-wire-a-robot above.
+Organize os componentes na chapa. O layout acima (images/how-to-wire-a-robot) é um exemplo que pode funcionar.
 
 .. image:: images/how-to-wire-a-robot/image2.png
    :width: 600
 
 
-Fasten Components
------------------
+Prenda os componentes
+---------------------
 
-Using the Dual Lock or hardware, fasten all components to the board.
-Note that in many FRC games robot-to-robot contact may be substantial
-and Dual Lock alone is unlikely to stand up as a fastener for many
-electronic components. Teams may wish to use nut and bolt fasteners or
-(as shown in the image above) cable ties, with or without Dual Lock to
-secure devices to the board.
+Utilizando Dual Lock (tipo de velcro) ou fita VHB, prenda todos componentes na chapa. Tenha noção de que em vários jogos da FRC, o contato físico entre robôs pode ser bem importante, portanto não utilize somente Dual Lock para prender os eletrônicos. Os times costumam utilizar ZIP ties (visto na imagem acima) e fitas (como a VHB por exemplo) com ou sem a Dual Lock.
 
-Attach Battery Connector to PDP
+Prenda o conector da bateria (Battery Connector) à PDP
 -------------------------------
 
 .. image:: images/how-to-wire-a-robot/image3.jpg
    :width: 600
 
-Requires: Battery Connector, 6AWG terminal lugs, 1/16" Allen, 5mm Allen,
+Requer: Conector da Bateria Battery Connector, 6AWG terminal lugs, 1/16" Allen, 5mm Allen,
 7/16" Box end
 
 
